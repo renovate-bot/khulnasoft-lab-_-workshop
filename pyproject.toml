@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = ""
+authors = ["KhulnaSoft Lab. <security@khulnasoft.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+readyapi = "^0.110.0"
+uvicorn = "^0.17.1"
+jinja2 = "^3.1.3"
+
+[tool.poetry.scripts]
+start = "app.main:start"
+
+[build-system]
+requires = ["poetry>=0.12"]
